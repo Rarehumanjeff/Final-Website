@@ -1,0 +1,62 @@
+body
+{
+    background-image: url(Palindrome.jpg);
+    background-size: cover;
+}
+
+h1
+{
+    color: rgb(230, 233, 237);
+    text-transform:none;
+    text-align: 50px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+p
+{
+    
+    background-color: aliceblue;
+    color: rgb(1, 9, 15);
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    width: 8em;
+}
+nav
+{
+    text-decoration: none;
+            color: whitesmoke;
+            line-height: 70px;
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form
+{
+    color:rgb(240, 242, 244);
+    font-style:normal;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: flex; 
+    font-size: large;
+    flex-direction: column;
+    width: 16em;
+}
+ul
+{
+    background-color: rgb(105, 118, 239);
+    text-decoration: none;
+    color: rgb(23, 16, 1);
+    border: 2px black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    width: 4em;
+    text-align: center;
+}
+#Box
+{
+    margin-left: 40%;
+    text-shadow: 2em;
+    
+}

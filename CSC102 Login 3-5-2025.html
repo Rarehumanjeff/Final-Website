@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="CSC102 Login 3-5-2025.js"></script>
+    <title>login</title>
+    <link rel="stylesheet" href="CS102 Login 3-5-2025.css"
+
+</head>
+<body>
+    <div id="Box">
+    <h1>Login Form</h1>   
+
+<form id="login" onsubmit="return false">
+    First Name:   <input type="text" id="fName" />
+    <br>
+    Last Name:    <input type="text" id="lName" />
+    <br>
+    Badge Number: <input type="number" id="badgeID" />
+    <br>
+    Zipcode: <input type="number" id="ZC" />
+    <br>
+    Password:     <input type="password" id="PW"/>
+    <br>
+    <input type="submit" onclick="checkCreds();">
+    </form>
+    <br>
+   
+    <p id="loginStatus">Status of Login</p>
+</div>
+</body>
+</html>

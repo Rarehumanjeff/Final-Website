@@ -1,0 +1,28 @@
+body
+{
+    background-image: url("Earth.jpg");
+    background-size: cover;
+}
+p
+{
+   
+    color: rgb(190, 209, 240);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+ul
+{
+    background-color: rgb(105, 118, 239);
+    text-decoration: none;
+    color: rgb(23, 16, 1);
+    border: 2px black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    width: 4em;
+    text-align: center;
+}

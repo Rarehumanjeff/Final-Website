@@ -1,0 +1,47 @@
+body
+{
+    background-image: url("CD-Collection.jpg");
+    background-size: cover;
+}
+nav
+{
+    background-color: azure;
+    color: orange;
+    border: 2px dashed black;
+    text-align: center;
+}
+h1
+{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 2cap;
+    text-decoration: double;
+    
+}
+p
+{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    width: 8em;
+}
+
+/* I don like how my login from is not centered and that the boxes dont align vertically */
+/* the "flex" order calls up the abiltiy to program changes in the placement of the form */
+form
+{
+    color: aliceblue;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+    width: 16em;
+}
+
+#Box
+{
+    margin-left: 40%;
+    
+}
